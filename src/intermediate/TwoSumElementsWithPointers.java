@@ -7,7 +7,7 @@ public class TwoSumElementsWithPointers {
      * Time Complexity: O(n)
      * Space Complexity: O(1)
      */
-    public static int[] twoSumWithPointers(int[] nums, int target) {
+    public static int[] TwoSumElementsWithPointers(int[] nums, int target) {
 
         if (nums == null || nums.length < 2) {
             return null;
@@ -33,7 +33,7 @@ public class TwoSumElementsWithPointers {
 
     public static void main(String[] args) {
         int[] nums = {2, 4, 11, 15};
-        int[] result = twoSumWithPointers(nums, 6);
+        int[] result = TwoSumElementsWithPointers(nums, 6);
 
         if (result != null) {
             System.out.println(result[0] + ", " + result[1]);
